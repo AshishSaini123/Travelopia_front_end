@@ -2,7 +2,7 @@
 
 
 import React, { useEffect } from 'react'
-
+import "../styles/table.css"
 const arr=[
     {name:'ashu',
     email:'ashu@mail.com',
@@ -40,7 +40,7 @@ const Table = () => {
 
 
   return (
-    <div>
+    <div className='container'>
         <h1>Users  Table</h1>
         <div>
             <table>

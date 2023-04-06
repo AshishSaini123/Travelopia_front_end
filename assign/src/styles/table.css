@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(187,187,243);
+}
+
+:root{
+    --mainColor:#29335C;
+    --mainColorLight:#5767aa;
+    --secondaryColor:#DB2B39;
+    --textColor:#eee;
+}
+
+.container{
+    text-align: center;
+}
+table{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+td{
+    border: 1px solid black;
+    padding: 15px;
+    background: linear-gradient(#29335C,#DB2B39,#5767aa)   ;
+    font-size: 20px;
+    font-weight: 550;
+}

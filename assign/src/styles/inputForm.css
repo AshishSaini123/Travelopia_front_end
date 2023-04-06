@@ -16,14 +16,30 @@
 form{
     width: 40%;
     margin: auto;
-    flex-direction: column;
+    text-align: center;
 }
 form >input{
-    
+    width: 100%;
     padding: 1.2rem;
     font-size: medium;
     color: var(--textColor);
+    background: linear-gradient(#29335C,#DB2B39,#5767aa)   ;
 }
 form >label{
-   
+    display: block;
+    text-align: left;
+    font-size: 1.5rem
+}
+
+select{
+    padding: 1.2rem;
+    background: linear-gradient(#29335C,#DB2B39,#5767aa)   ;
+    font-size: medium;
+}
+button{
+    width: 40%;
+    padding: 1.2rem;
+    background: linear-gradient(#29335C,#DB2B39,#5767aa)   ;
+    font-size: medium;
+    border-radius:30px ;
 }
