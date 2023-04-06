@@ -20,8 +20,22 @@ const InputForm = () => {
     }
     const handleFormsubmit=(e)=>{
         e.preventDefault();
-        // console.log(userData);
+
+
+        // ther we have to use post request
+
+        
+
         if(userData.name && userData.email && userData.destination && userData.travelers &&userData.budget){
+
+            //THis will post the data to apii
+
+            // axios.post("...link of api",{
+            //     ...userData
+            // }).then(res=>res)
+            // .catch(err=>console.log(err));
+
+
             nav('/user')
         }
         else{

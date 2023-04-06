@@ -1,26 +1,44 @@
 
 
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const arr=[
     {name:'ashu',
     email:'ashu@mail.com',
     phone:"232224"},
-    {name:'ashu',
+    {name:'aman',
     email:'ashu@mail.com',
     phone:"232224"},
-    {name:'ashu',
+    {name:'akhil',
     email:'ashu@mail.com',
     phone:"232224"},
-    {name:'ashu',
+    {name:'bablu',
     email:'ashu@mail.com',
     phone:"232224"},
-    {name:'ashu',
+    {name:'chirag',
     email:'ashu@mail.com',
     phone:"232224"}
 ]
 const Table = () => {
+
+    //i am not able to deploy the express server that's why i am using this
+
+    // const [data,setData]=useState([]);
+
+    // const fetchData=()=>{
+    //     const data=axios.get("...link of api");
+    //     //this will give us the data that we want to use or display
+    //     return data;
+    // }
+
+    //now we will take this data in a state and for this we have to run this method
+
+    // useEffect(async()=>{
+    //     setData(await fetchData())
+    // },[])
+
+
   return (
     <div>
         <h1>Users  Table</h1>
