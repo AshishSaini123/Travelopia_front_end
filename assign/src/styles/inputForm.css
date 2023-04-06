@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(187,187,243);
+}
+
+:root{
+    --mainColor:#29335C;
+    --mainColorLight:#5767aa;
+    --secondaryColor:#DB2B39;
+    --textColor:#eee;
+}
+
+form{
+    width: 40%;
+    margin: auto;
+    flex-direction: column;
+}
+form >input{
+    
+    padding: 1.2rem;
+    font-size: medium;
+    color: var(--textColor);
+}
+form >label{
+   
+}
